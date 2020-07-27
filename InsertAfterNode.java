@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class InsertAfter
+public class InsertAfterNode
 {
     Node head
     class Node
@@ -39,7 +39,7 @@ public class InsertAfter
         return;
     }
     public static void main(String[] args) {
-        InsertAfter list = new InsertAfter();
+        InsertAfterNode list = new InsertAfterNode();
         Scanner obj = new Scanner(System.in);
         int n = obj.nextInt();
         for(int i=0;i<n;i++)
