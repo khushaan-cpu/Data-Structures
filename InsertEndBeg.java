@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class InsertEnd{
+public class InsertEndBeg{
     Node head;
     class Node{
         int data;
@@ -20,9 +20,6 @@ public class InsertEnd{
             head = newNode;
             return;
         }
-
-        //newNode.next = null;
-        
         while(last.next!=null)
             last = last.next;
             
@@ -47,7 +44,7 @@ public class InsertEnd{
         return;
     }
     public static void main(String[] args) {
-        InsertEnd listt = new InsertEnd();
+        InsertEndBeg listt = new InsertEndBeg();
         Scanner obj = new Scanner(System.in);
         int n = obj.nextInt();
         for(int i=0;i<n;i++)
