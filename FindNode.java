@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class FindList {
+public class FindNode {
     Node head;
     class Node{
         int data;
@@ -57,7 +57,7 @@ public class FindList {
     }
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        FindList list = new FindList();
+        FindNode list = new FindNode();
         System.out.println("Enter number of nodes you want to enter: ");
         int n = obj.nextInt();
         for(int i=0;i<n;i++)
