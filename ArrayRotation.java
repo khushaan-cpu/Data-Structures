@@ -1,5 +1,5 @@
 import java.util.*;
-public class arrayrotation
+public class ArrayRotation
 {
     void getarray(int n, int arr[])
     {
@@ -41,7 +41,7 @@ public class arrayrotation
         System.out.println("Enter number of elements in array: ");
         final int n = sc.nextInt();
         int[] arr = new int[n];
-        arrayrotation obj = new arrayrotation();
+        ArrayRotation obj = new ArrayRotation();
         obj.getarray(n, arr);
         obj.shift(k,n, arr);
         obj.printarray(n, arr);
