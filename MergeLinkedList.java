@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MergeList {
+public class MergeLinkedList {
     Node head;
     class Node{
         int data;
@@ -69,8 +69,8 @@ public class MergeList {
     }
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        MergeList list1 = new MergeList();
-        MergeList list2 = new MergeList();
+        MergeLinkedList list1 = new MergeLinkedList();
+        MergeLinkedList list2 = new MergeLinkedList();
         System.out.println("Enter the size of the first list: ");
         int n = obj.nextInt();
         System.out.println("Enter the elements: ");
